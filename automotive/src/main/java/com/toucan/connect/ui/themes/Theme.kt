@@ -49,7 +49,8 @@ fun ToucanConnectTheme(
     }
 
     CompositionLocalProvider(
-        LocalSpacing provides Spacing()
+        LocalSpacing provides Spacing(),
+        LocalSizing provides Sizing()
     ) {
         MaterialTheme(
             colorScheme = colorScheme,
